@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background: black;
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #2196f3;
+    color: white;
+}
+
+.btn:active {
+    transform: scale(0.9);
+}
+
